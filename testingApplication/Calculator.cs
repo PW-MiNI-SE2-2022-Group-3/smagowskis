@@ -11,7 +11,7 @@ namespace stringCalculator
         public static int SumString(string s)
         {
             if (string.IsNullOrWhiteSpace(s))
-                return 0;
+                return "hello";
 
             char[] delimeters = new char[] { '\n', ',' };
 
@@ -30,8 +30,6 @@ namespace stringCalculator
                 throw new ArgumentException();
 
             //numbers = (from n in numbers where n <= 1000 select n).ToArray();
-
-
 
             return numbers.Sum();
         }
