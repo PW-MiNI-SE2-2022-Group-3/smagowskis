@@ -1,2 +1,1 @@
-# smagowskis
-changed hfwrigwn
+Smagowski Szymon
